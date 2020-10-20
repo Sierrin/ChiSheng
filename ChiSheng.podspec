@@ -37,6 +37,10 @@ TODO: Add long description of the pod here.
   #   'ChiSheng' => ['ChiSheng/Assets/*.png']
   # }
 
+  s.xcconfig = {
+    'OTHER_LDFLAGS' => '$(inherited) -ObjC'
+  }
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
