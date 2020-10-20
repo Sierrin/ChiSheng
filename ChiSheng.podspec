@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ChiSheng/Classes/**/*'
-  s.vendored_libraries = 'ChiSheng/Frameworks/*.a'
+  s.vendored_libraries = 'ChiSheng/**/*.a'
   
   # s.resource_bundles = {
   #   'ChiSheng' => ['ChiSheng/Assets/*.png']
