@@ -1,0 +1,17 @@
+//
+//  main.m
+//  ChiSheng
+//
+//  Created by 魏晓赟 on 10/20/2020.
+//  Copyright (c) 2020 魏晓赟. All rights reserved.
+//
+
+@import UIKit;
+#import "NEAppDelegate.h"
+
+int main(int argc, char * argv[])
+{
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([NEAppDelegate class]));
+    }
+}
