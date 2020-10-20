@@ -38,8 +38,12 @@ TODO: Add long description of the pod here.
   # }
 
   s.xcconfig = {
+    'ENABLE_BITCODE' => 'NO',
     'OTHER_LDFLAGS' => '$(inherited) -ObjC'
   }
+  
+  s.frameworks = 'Security', 'AVFoundation', 'SystemConfiguration'
+  s.libraries = 'c++','z.1.2.5','sqlite3'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
