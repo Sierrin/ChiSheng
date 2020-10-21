@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ChiSheng/Classes/**/*'
-  s.vendored_libraries = 'ChiSheng/**/*.a'
+  s.vendored_libraries = 'ChiSheng/Classes/*.a'
   
   # s.resource_bundles = {
   #   'ChiSheng' => ['ChiSheng/Assets/*.png']
@@ -42,7 +42,7 @@ TODO: Add long description of the pod here.
     'OTHER_LDFLAGS' => '$(inherited) -ObjC'
   }
   
-  s.frameworks = 'Security', 'AVFoundation', 'SystemConfiguration'
+  s.frameworks = 'Security', 'AVFoundation', 'SystemConfiguration', 'AudioToolbox'
   s.libraries = 'c++','z.1.2.5','sqlite3'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

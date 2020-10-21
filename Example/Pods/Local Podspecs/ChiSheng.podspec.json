@@ -1,9 +1,9 @@
 {
   "name": "ChiSheng",
   "version": "0.1.0",
-  "summary": "A short description of ChiSheng.",
+  "summary": "ChiSheng SDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/魏晓赟/ChiSheng",
+  "homepage": "https://github.com/Sierrin/ChiSheng",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,12 +12,27 @@
     "魏晓赟": "weixiao12@xdf.cn"
   },
   "source": {
-    "git": "https://github.com/魏晓赟/ChiSheng.git",
+    "git": "https://github.com/Sierrin/ChiSheng.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "ChiSheng/Classes/**/*",
-  "vendored_libraries": "ChiSheng/Frameworks/*.a"
+  "vendored_libraries": "ChiSheng/Classes/*.a",
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO",
+    "OTHER_LDFLAGS": "$(inherited) -ObjC"
+  },
+  "frameworks": [
+    "Security",
+    "AVFoundation",
+    "SystemConfiguration",
+    "AudioToolbox"
+  ],
+  "libraries": [
+    "c++",
+    "z.1.2.5",
+    "sqlite3"
+  ]
 }
