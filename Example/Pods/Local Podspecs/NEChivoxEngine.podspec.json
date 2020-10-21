@@ -1,0 +1,22 @@
+{
+  "name": "NEChivoxEngine",
+  "version": "0.1.0",
+  "summary": "A short description of NEChivoxEngine.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/魏晓赟/NEChivoxEngine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "魏晓赟": "weixiao12@xdf.cn"
+  },
+  "source": {
+    "git": "https://github.com/魏晓赟/NEChivoxEngine.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NEChivoxEngine/Classes/**/*"
+}
