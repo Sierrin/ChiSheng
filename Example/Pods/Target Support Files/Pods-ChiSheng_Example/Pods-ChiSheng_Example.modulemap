@@ -1,6 +1,0 @@
-framework module Pods_ChiSheng_Example {
-  umbrella header "Pods-ChiSheng_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

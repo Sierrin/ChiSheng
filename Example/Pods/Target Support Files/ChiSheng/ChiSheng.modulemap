@@ -1,6 +1,0 @@
-framework module ChiSheng {
-  umbrella header "ChiSheng-umbrella.h"
-
-  export *
-  module * { export * }
-}
